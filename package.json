@@ -1,0 +1,29 @@
+{
+  "name": "asarg",
+  "version": "1.0.0",
+  "description": "Executes the supplied function with this as an argument",
+  "main": "asarg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/asarg.git"
+  },
+  "keywords": [
+    "with",
+    "this",
+    "utility",
+    "function",
+    "this",
+    "becomes",
+    "the",
+    "argument"
+  ],
+  "author": "barney.carroll@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/asarg/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/asarg#readme"
+}
