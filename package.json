@@ -1,10 +1,10 @@
 {
   "name": "asarg",
-  "version": "1.0.0",
-  "description": "Executes the supplied function with this as an argument",
+  "version": "2.0.0",
+  "description": "Binds the supplied function with received this as an argument",
   "main": "asarg.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel-node tests.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/barneycarroll/asarg/issues"
   },
-  "homepage": "https://github.com/barneycarroll/asarg#readme"
+  "homepage": "https://github.com/barneycarroll/asarg#readme",
+  "devDependencies": {
+    "babel-cli": "^6.1.1",
+    "babel-preset-es2015": "^6.0.15",
+    "tape": "^4.2.2"
+  }
 }
