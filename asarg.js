@@ -1,4 +1,4 @@
-module.exports = function( fn ){
+function asarg( fn ){
 	return function(){
 		var subject = this
 		var input   = Array.prototype.slice.call( arguments )
@@ -7,3 +7,6 @@ module.exports = function( fn ){
 		return fn.apply( subject, args )
 	}
 }
+
+if( typeof exports != 'undefined' && typeof global != 'undefined' )
+	module.exports = asarg
